@@ -26,25 +26,24 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,700;1,9..144,900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap">
 
 <style>
 
 *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
 
 :root {
-  --g:     #00C896;
-  --g10:   rgba(0,200,150,0.10);
-  --g20:   rgba(0,200,150,0.20);
-  --glow:  rgba(0,200,150,0.28);
+  --g:     #34C759;
+  --g10:   rgba(52,199,89,0.10);
+  --g20:   rgba(52,199,89,0.22);
+  --glow:  rgba(52,199,89,0.25);
   --bg:    #04100b;
   --text:  #e5f5ee;
   --muted: rgba(229,245,238,0.42);
 
-  /* Font stacks: Google Fonts first, then beautiful system fallbacks */
-  --fd: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  --fu: 'Space Grotesk', 'Trebuchet MS', system-ui, sans-serif;
-  --fb: 'Inter', -apple-system, 'Segoe UI', system-ui, sans-serif;
+  --fd: 'Fraunces', Georgia, serif;
+  --fu: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --fb: 'Plus Jakarta Sans', system-ui, sans-serif;
 }
 
 html { scroll-behavior:smooth; }
@@ -74,9 +73,9 @@ body::after {
   animation: drift linear infinite;
   will-change: transform;
 }
-.b1{ width:500px;height:500px;background:radial-gradient(circle,#00C896,transparent 65%);top:-140px;left:-140px;animation-duration:26s; }
-.b2{ width:400px;height:400px;background:radial-gradient(circle,#00ffb3,transparent 65%);bottom:-80px;right:-80px;animation-duration:22s;animation-delay:-9s; }
-.b3{ width:280px;height:280px;background:radial-gradient(circle,#00C896,transparent 65%);top:50%;left:48%;transform:translate(-50%,-50%);animation-duration:18s;animation-delay:-4s;opacity:0.07; }
+.b1{ width:500px;height:500px;background:radial-gradient(circle,#34C759,transparent 65%);top:-140px;left:-140px;animation-duration:26s; }
+.b2{ width:400px;height:400px;background:radial-gradient(circle,#5ddd7e,transparent 65%);bottom:-80px;right:-80px;animation-duration:22s;animation-delay:-9s; }
+.b3{ width:280px;height:280px;background:radial-gradient(circle,#34C759,transparent 65%);top:50%;left:48%;transform:translate(-50%,-50%);animation-duration:18s;animation-delay:-4s;opacity:0.07; }
 @keyframes drift{0%{transform:translate(0,0) scale(1)}33%{transform:translate(65px,-75px) scale(1.09)}66%{transform:translate(-45px,55px) scale(0.93)}100%{transform:translate(0,0) scale(1)}}
 
 /* Layout */
@@ -159,7 +158,7 @@ nav{
   background:rgba(0,200,150,0.07);border:1px solid var(--g20);
   border-radius:100px;padding:9px 20px;margin-bottom:34px;
 }
-.ldot{width:7px;height:7px;border-radius:50%;background:#00ffb3;box-shadow:0 0 8px #00ffb3;animation:lp 1.6s ease-in-out infinite;}
+.ldot{width:7px;height:7px;border-radius:50%;background:#34C759;box-shadow:0 0 8px #34C759;animation:lp 1.6s ease-in-out infinite;}
 @keyframes lp{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.6);opacity:0.35}}
 .lt{font-family:var(--fu);font-size:13px;font-weight:600;color:var(--text);}
 .lt b{color:var(--g);}
@@ -192,7 +191,7 @@ nav{
 }
 .gf input::placeholder{color:rgba(229,245,238,0.28);}
 .sbtn{
-  background:var(--g);color:#02180d;border:none;border-radius:12px;
+  background:var(--g);color:#021a09;border:none;border-radius:12px;
   padding:13px 22px;font-family:var(--fu);font-size:14px;font-weight:700;
   letter-spacing:0.3px;cursor:pointer;white-space:nowrap;
   transition:all .2s ease;
@@ -345,11 +344,11 @@ footer{padding:28px 0;border-top:1px solid rgba(255,255,255,0.05);display:flex;a
 
   <div class="srow fu d4">
     <div class="avs">
-      <div class="av" style="background:linear-gradient(135deg,#00C896,#006b4d)">A</div>
-      <div class="av" style="background:linear-gradient(135deg,#00a07c,#003d28)">K</div>
-      <div class="av" style="background:linear-gradient(135deg,#00C896,#005a3d)">T</div>
-      <div class="av" style="background:linear-gradient(135deg,#007a5a,#002e1e)">F</div>
-      <div class="av" style="background:linear-gradient(135deg,#00d4a0,#004e36);font-size:9px">+843</div>
+      <div class="av" style="background:linear-gradient(135deg,#34C759,#1a7a32)">A</div>
+      <div class="av" style="background:linear-gradient(135deg,#28a045,#0f4d20)">K</div>
+      <div class="av" style="background:linear-gradient(135deg,#34C759,#166128)">T</div>
+      <div class="av" style="background:linear-gradient(135deg,#20943e,#0a3518)">F</div>
+      <div class="av" style="background:linear-gradient(135deg,#42d96a,#145c23);font-size:9px">+843</div>
     </div>
     <div class="scopy">
       <strong>Students from FUTA, UniLag, OAU & more</strong><br>
@@ -447,4 +446,11 @@ footer{padding:28px 0;border-top:1px solid rgba(255,255,255,0.05);display:flex;a
       </div>
       <div class="ok" id="co">🎉 You're in! We'll reach out first when we launch.</div>
       <div class="err" id="ce2">Something went wrong — please try again.</div>
-      <p class="fnote">Only 50 beta spots total. Don't sleep on it
+      <p class="fnote">Only 50 beta spots total. Don't sleep on it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="w">
+  <div class="fl">
