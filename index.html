@@ -23,7 +23,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,700;1,9..144,900&family=DM+Sans:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
 
 <style>
 /* ── RESET ── */
@@ -46,8 +46,8 @@ a { text-decoration: none; }
   --text:        #0f1f15;
   --text-sub:    #4a6655;
   --muted:       #8aab95;
-  --fd: 'Fraunces', Georgia, serif;
-  --fs: 'DM Sans', system-ui, sans-serif;
+  --fd: 'Manrope', 'Inter', system-ui, sans-serif;
+  --fs: 'Manrope', 'Inter', system-ui, sans-serif;
   --shadow-sm:   0 2px 8px rgba(0,0,0,0.06);
   --shadow-md:   0 8px 32px rgba(0,0,0,0.1);
   --shadow-lg:   0 24px 64px rgba(0,0,0,0.12);
@@ -172,7 +172,7 @@ nav {
   font-family: var(--fd); font-size: clamp(40px, 4.8vw, 72px);
   line-height: 1.02; letter-spacing: -2px; color: var(--text); margin-bottom: 18px;
 }
-.headline em { font-style: italic; color: var(--green); }
+.headline em { font-style: normal; color: var(--green); font-weight: 800; }
 
 .subline {
   font-size: clamp(14px, 1.5vw, 16px); font-weight: 400;
@@ -358,7 +358,7 @@ nav {
   font-family: var(--fd); font-size: clamp(30px, 4vw, 52px);
   line-height: 1.08; letter-spacing: -1.2px; color: var(--text); margin-bottom: 52px; max-width: 460px;
 }
-.section-title em { font-style: italic; color: var(--green); }
+.section-title em { font-style: normal; color: var(--green); font-weight: 800; }
 
 .feat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
 .feat-card {
@@ -401,7 +401,7 @@ nav {
   letter-spacing: -1.5px; line-height: 1.08; color: #fff; margin-bottom: 14px;
   position: relative;
 }
-.cta-title em { font-style: italic; color: var(--green-light); }
+.cta-title em { font-style: normal; color: var(--green-light); font-weight: 800; }
 .cta-sub {
   font-size: 15px; font-weight: 300; color: rgba(255,255,255,0.55);
   max-width: 380px; margin: 0 auto 36px; line-height: 1.8; position: relative;
